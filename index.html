@@ -16,14 +16,15 @@
 <body>
 
     <!-- Картинка, при нажатии на которую будет играть музыка -->
-    <img src="image.jpg" alt="Нажми на меня" onclick="playMusic()">
+    <img src="images/image1.jpg" alt="Нажми на меня" onclick="playMusic()">
 
     <!-- Аудио элемент -->
-    <audio id="music" src="sound.mp3"></audio>
+    <audio id="music" src="sounds/sound1.mp3"></audio>
 
     <script>
         function playMusic() {
             var audio = document.getElementById("music");
+            audio.volume = 1; // Устанавливаем громкость на максимум
             audio.play();
         }
     </script>

@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web_page</title>
-</head>
-<body>
     <style>
-        p {
-            color: aqua;
-            border: 1cm;
+        /* Небольшой стиль для красоты */
+        img {
+            cursor: pointer;
+            width: 300px;
+            height: auto;
         }
     </style>
-    <p>
-        test text
-    </p>
+</head>
+<body>
+
+    <!-- Картинка, при нажатии на которую будет играть музыка -->
+    <img src="image.jpg" alt="Нажми на меня" onclick="playMusic()">
+
+    <!-- Аудио элемент -->
+    <audio id="music" src="sound.mp3"></audio>
+
+    <script>
+        function playMusic() {
+            var audio = document.getElementById("music");
+            audio.play();
+        }
+    </script>
+
 </body>
 </html>

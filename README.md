@@ -1,3 +1,3 @@
 # Web page for ITU SUMIREA
 
-👉🏻 [Demo](itu-sumirea.ru)
+👉🏻 [Demo](https://itu-sumirea.ru)

@@ -1,3 +1,3 @@
-# My test web page
+# Web page for ITU SUMIREA
 
-👉🏻 [Demo](https://hanterorg.github.io/web_page/)
+👉🏻 [Demo](itu-sumirea.ru)

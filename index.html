@@ -2,13 +2,56 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://vk.com/alex_sashok">
-  <title>Переадресация...</title>
-  <script>
-    window.location.href = "https://vk.com/alex_sashok";
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Точка решения</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+   <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
-  <p>Если вас не перенаправило, <a href="https://новый-сайт.ru">нажмите сюда</a>.</p>
+  <!-- Градиент -->
+  <div class="gradient-bg"></div>
+
+  <!-- Фоновое изображение поверх градиента -->
+  <div class="background-image"></div>
+
+  <!-- Боковые элементы corner -->
+  <img src="images/corner.png" alt="угол" class="corner corner-left">
+  <img src="images/corner.png" alt="угол" class="corner corner-right">
+
+  <!-- Боковые изображения side1.png -->
+  <img src="images/side1.png" alt="Side1 левый" class="side1 side1-left">
+  <img src="images/side1.png" alt="Side1 правый" class="side1 side1-right">
+
+  <!-- Боковые изображения side2.png -->
+  <img src="images/side2.png" alt="Side2 левый" class="side2 side2-left">
+  <img src="images/side2.png" alt="Side2 правый" class="side2 side2-right">
+
+  <!-- Верхний логотип -->
+  <div class="top-logo">
+    <img src="images/logo1.png" alt="Логотип">
+  </div>
+
+  <!-- Название проекта под логотипом -->
+  <div class="project-title">
+    <a href="https://t.me/tochkaresheniya" target="_blank">
+      <img src="images/project-title.png" alt="Название проекта">
+    </a>
+  </div>
+
+  <!-- Основной контент -->
+  <div class="content">
+    <img src="images/main-image.png" alt="Главное изображение" class="main-image">
+    
+    <!-- Два кликабельных QR-кода рядом -->
+    <div class="qr-codes">
+      <a href="https://cloud.mirea.ru/index.php/apps/forms/s/dNFa7Pg46xfGsYwgXKi6zHHK" target="_blank">
+        <img src="images/qr1.png" alt="QR-код 1" class="qr-image">
+      </a>
+      <a href="https://t.me/tochkaresheniya" target="_blank">
+        <img src="images/qr2.png" alt="QR-код 2" class="qr-image">
+      </a>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,3 +1,12 @@
+/* === Сброс отступов и полная ширина/высота === */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* предотвращает горизонтальный скролл */
+}
+
 /* === Градиент на фоне === */
 .gradient-bg {
   position: fixed;
@@ -108,19 +117,16 @@
   position: relative;
   padding: 20px;
   z-index: 3;
-  margin-top: 200px; /* опускаем весь контент вниз на 100px */
+  margin-top: 100px; /* опускаем блок на 100px вниз */
 }
-
 
 .main-image {
   width: 100%;
   height: auto;
   border-radius: 15px;
-  margin-top: 120px; /* 20px + 100px = 120px */
   margin-bottom: 20px;
   box-shadow: none;
 }
-
 
 /* === Блок с двумя QR-кодами рядом === */
 .qr-codes {
@@ -148,6 +154,6 @@
   .corner { width: 180px; }
   .top-logo img { width: 140px; height: 50px; }
   .project-title img { width: 300px; }
-  .main-image { border-radius: 12px; margin-top: 15px; }
+  .main-image { border-radius: 12px; }
   .qr-image { width: 140px; }
 }

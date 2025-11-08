@@ -58,6 +58,7 @@
 <script>
     const btns = document.querySelectorAll('.btn');
     const qrs = document.querySelectorAll('.qr');
+    const dot = document.querySelector('.dot');
 
     btns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -70,6 +71,10 @@
     });
 
     qrs[1].addEventListener('click', () => {
+        window.open('https://t.me/tochkaresheniya');
+    });
+
+    dot.addEventListener('click', () => {
         window.open('https://t.me/tochkaresheniya');
     });
 

@@ -70,6 +70,8 @@ img {
 .dot {
   max-width: 60vw;
   margin: 0 auto;
+
+  cursor: pointer;
 }
 
 .btns {
@@ -171,4 +173,6 @@ img {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+
+  z-index: -1;
 }

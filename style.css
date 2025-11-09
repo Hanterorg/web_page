@@ -16,6 +16,10 @@ body {
   color: #ffffff;
 }
 
+html, body {
+  background: #0A0A0A; 
+}
+
 img {
   max-width: 100%;
   width: 100%;

@@ -20,6 +20,10 @@ html, body {
    background: linear-gradient(180deg, #0e0e0e 69.55%, #750303 115.74%);
 }
 
+html, body {
+  background: #0A0A0A; 
+}
+
 img {
   max-width: 100%;
   width: 100%;

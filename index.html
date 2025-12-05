@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Тут должно быть описание, но я его еще не придумал">
+    <meta name="keywords"
+        content="Ключевые слова бла-бла-бла">
+    <meta name="author" content="rnirea">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>♥♂♥</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .full-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <audio id="sound" src="sounds/sound.mp3"></audio>
+
+    <img src="images/image.jpg" class="full-image" id="image" alt="Fullscreen">
+
+    <script>
+        const img = document.getElementById("image");
+        const sound = document.getElementById("sound");
+
+        img.addEventListener("click", () => {
+            sound.currentTime = 0;
+            sound.play();
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>♥♂♥</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <audio id="sound" src="sounds/sound.mp3"></audio>
+
+    <div class="container" id="container">
+        <img src="images/image1.jpg" class="image" id="image1" alt="">
+        <img src="images/image2.jpg" class="image" id="image2" alt="">
+    </div>
+
+    <script>
+        const container = document.getElementById("container");
+        const sound = document.getElementById("sound");
+
+        container.addEventListener("click", () => {
+            sound.currentTime = 0;
+            sound.play();
+            container.classList.add("show-second");
+        });
+    </script>
+
+</body>
+</html>
